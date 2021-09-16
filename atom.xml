@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuureig.github.io</id>
     <title>Gridea</title>
-    <updated>2021-09-16T03:03:39.816Z</updated>
+    <updated>2021-09-16T03:41:52.146Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuureig.github.io"/>
     <link rel="self" href="https://yuureig.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://yuureig.github.io/images/avatar.png</logo>
     <icon>https://yuureig.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://yuureig.github.io/post/ce-shi/</id>
+        <link href="https://yuureig.github.io/post/ce-shi/">
+        </link>
+        <updated>2021-09-16T03:40:52.000Z</updated>
+        <content type="html"><![CDATA[<p>##测试样式等</p>
+<blockquote>
+<p>为什么预览和实际显示格式不一样</p>
+</blockquote>
+<p><strong>why</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://yuureig.github.io/post/hello-gridea/</id>
