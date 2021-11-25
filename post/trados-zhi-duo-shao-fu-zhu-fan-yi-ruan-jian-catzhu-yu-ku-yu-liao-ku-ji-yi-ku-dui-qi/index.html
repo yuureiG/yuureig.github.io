@@ -1,0 +1,244 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Trados知多少-（辅助翻译软件+CAT+术语库+语料库+记忆库+对齐） | 无胆之辈</title>
+
+<link rel="shortcut icon" href="https://yuureig.github.io/favicon.ico?v=1637831385069">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yuureig.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            无胆之辈
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://yuureig.github.io/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1637831385069" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Trados知多少-（辅助翻译软件+CAT+术语库+语料库+记忆库+对齐）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-11-25 ·
+                    </time>
+                    
+                        <a href="https://yuureig.github.io/tag/6b25shtO-/" class="post-tags">
+                            # 翻译经验
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>[toc]</p>
+<h1 id="1-翻译记忆库制作tmx格式">1. 翻译记忆库制作（TMX格式）</h1>
+<p>====</p>
+<h2 id="方案1-使用abbyy-aligner">方案1. 使用ABBYY Aligner</h2>
+<ol>
+<li>制作excel双语文档或1份源文+1份译文文档，第一行为语言标题，比如英文/中文/日文等。</li>
+<li>打开工具选择制作好的excel文档，并选择正确的语言</li>
+<li>操作正确的话软件里会呈现出左右结构的源文+译文，可以根据需要换位/切割等。</li>
+<li>处理完成后导出为TMX格式即可。</li>
+</ol>
+<p><strong>注：该工具支持按句号等自动换行对齐；不支持日语，只支持英语为主的欧洲语系和中文</strong></p>
+<hr>
+<h2 id="方案2-使用alignassist">方案2. 使用AlignAssist</h2>
+<ol>
+<li>制作1份源文+1份译文文档，excel/word/txt均可，不需要在第一行填语言标题，直接上内容即可。</li>
+<li>打开工具选择源文和译文文档，点击对齐</li>
+<li>操作正确的话软件里会呈现出左右结构的源文+译文，可以根据需要换位/切割/合并等。</li>
+<li>处理完成后选择保存为TMX格式并选择源文和译文对应的语言类别即可导出。</li>
+</ol>
+<p><strong>注1：该工具支持中英日在内的多种语言；不支持按句号等自动换行对齐，只支持换行符换行</strong><br>
+<strong>注2：可以在word里使用 “。” 替换成 “。<sup>p”，将段落按句号换行对齐，多出来的空格再使用“</sup>p<sup>p”替换成“</sup>p”即可</strong><br>
+<a href="http://e-trans.d2.r-cms.jp/blog_detail/id=47">More</a></p>
+<hr>
+<h2 id="方案3-使用trados2019">方案3. 使用Trados2019</h2>
+<ol>
+<li>制作excel双语文档，第一行为语言标题，比如英文/中文/日文等。</li>
+<li>trados项目设置里的文件类型，将双语excel外的所有excel类型全部取消选中。</li>
+<li>在项目里添加excel双语文档，然后打开。如果没有呈现出左右结构的源文+译文，建议保存后重开软件。</li>
+<li>批任务里选择更新主翻译记忆库，并将未翻译选项勾上，然后一路确定。</li>
+<li>双语文档里的内容已经进入trados的主翻译记忆库里，此时选择导出记忆库为TMX格式即可。</li>
+<li><em><strong>虽然记忆库已经更新了，但由于没有对每个句段进行确认，所以会出现部分句段的“翻译结果”既不会有匹配也无法搜到，而另外一些句段既有匹配也能搜到……</strong></em><br>
+<a href="https://www.sdltrados.com/jp/blog/ExceltoTM.html">More</a></li>
+</ol>
+<hr>
+<h2 id="方案4-使用tmxmall">方案4. 使用Tmxmall</h2>
+<ol>
+<li>这是来自国内的在线对齐工具，好用易操作，需要付费，不贵。</li>
+<li>根据自身情况决定是否上传，因为上传后对方服务器里肯定就有你的记忆库了，也许说不上后果，但这结果可想而知……</li>
+</ol>
+<hr>
+<h2 id="方案5-使用omegat只适合格式简单句段少的记忆库制作">方案5. 使用Omegat（只适合格式简单句段少的记忆库制作）</h2>
+<ol>
+<li>支持多种语言，支持按行按句号等多种切割方式进行对齐，支持手动调整，具体参照“OmegaT知多少-（辅助翻译软件+CAT+术语库+记忆库+语料库+对齐）.md”</li>
+</ol>
+<hr>
+<h1 id="2-trados术语库制作">2. Trados术语库制作</h1>
+<ol>
+<li>制作excel双语文档，第一行为语言标题，比如英文/中文/日文等。</li>
+<li>打开<strong>SDL Multiterm 2014-convert</strong>，选择新建会话→选择excel格式→选择excel双语文档。（<strong>如果excel打不开，则可以将双语文档做成txt等格式</strong>，<a href="https://tieba.baidu.com/p/4125933890?red_tag=2555589035">参考</a>）</li>
+<li>此时需要为两种语言分别设置索引字段，比如语言标题里写的是日文，则索引字段选择“japanese”，然后一路下一步至完成。</li>
+<li>打开<strong>SDL Multiterm 2014-desktop</strong>，新建术语库，选择“载入现有术语库定义文件”→选择第3步导出的xdt文件。</li>
+<li>然后术语库名称随便填→一路下一步至完成。</li>
+<li>术语库建成后选中该术语库，右键→导入术语库→选择第3步导出的xml文件→选择排除文件的保存路径和名字→一路下一步至完成。</li>
+<li>正常情况下<strong>Multiterm desktop</strong>里面也可以看到导入的术语列表，但有时候会出现bug无法查看，这个没有关系，术语库是作成了。</li>
+<li>打开trados，项目设置→术语库→使用术语库→选择上一步中的sdltb术语库文件，此时就挂载成功，也可以在trados里搜索术语验证一下。<br>
+<a href="https://jingyan.baidu.com/article/9989c74620d828f648ecfe0d.html">More</a></li>
+</ol>
+<hr>
+<h1 id="3-如何导出指定文档的记忆库">3. 如何导出指定文档的记忆库</h1>
+<ol>
+<li>打开Trados2019新建项目并创建空的记忆库。</li>
+<li>之后的流程同上面的1.3方案，即使用excel双语文档输出tmx格式的指定文档的记忆库。</li>
+<li>如果项目里有多个文档需要合并输出，则重复第2步，只是在对所有文档更新完记忆库后再统一输出。</li>
+</ol>
+<hr>
+<h1 id="4-翻译完成但进度条为0">4. 翻译完成但进度条为0</h1>
+<ol>
+<li>当进行句子的合并和分割时回导致软件对句段的统计发生错误，最后就可能造成超出100%的翻译量，此时进度条就显示0，状态为“正在检查”。</li>
+<li>重新打开进度有问题的文档，随便修改一句，让该句段状态变为“草稿”，然后保存后返回文档列表，此时应该可以看到进度不再是0。再将刚才那句确认后再保存，进度条应该就100%了。</li>
+</ol>
+<hr>
+<h1 id="5-项目记忆库和主记忆库">5. 项目记忆库和主记忆库</h1>
+<p>====</p>
+<h2 id="51-项目记忆库和主记忆库的创建">5.1. 项目记忆库和主记忆库的创建</h2>
+<ol>
+<li>每个项目的项目设置/语言对/所有语言对/翻译记忆库和自动翻译，都可以设置多个记忆库。</li>
+<li>当创建 or 使用现有记忆库（这里挂载的就是主记忆库）后，可以右键需要翻译的文件→批任务/填充项目翻译记忆库（记忆可能有误），此时就会在项目设置的主记忆库下方生成二级记忆库=项目记忆库。</li>
+</ol>
+<hr>
+<h2 id="52-项目记忆库和主记忆库的区别">5.2. 项目记忆库和主记忆库的区别</h2>
+<ol>
+<li>主记忆库=公用记忆库（团队合作），可存放到任何位置。项目记忆库=私人记忆库，trados会在项目的tm下自动生成，项目记忆库的文件名=项目名称前缀+主记忆库文件名。</li>
+<li>项目记忆库和主记忆库都会默认勾选，但此种情况下只有项目记忆库会更新，<strong>防止污染主记忆库</strong>。如果取消项目记忆库，则会提示是否更新主记忆库，如果选否，则两边都不会更新。</li>
+<li>因为主记忆库=公用记忆库，所以只有最终确认译文正确后再更新，否则会对团队其他成员的翻译造成影响。</li>
+<li>在开始新项目前，一定要确认所采用的记忆库和术语库，不要互相污染了。</li>
+</ol>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://yuureig.github.io/post/yi-ju-hua-dian-ping-ying-shi-dian-ying-dian-shi-ju-dong-hua/" class="post-title gt-a-link">
+                    一句话点评-（影视+电影+电视剧+动画）
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">小市民的生活记录</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://yuureig.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
