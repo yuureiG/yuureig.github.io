@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuureig.github.io</id>
     <title>无胆之辈</title>
-    <updated>2021-12-30T14:50:40.906Z</updated>
+    <updated>2022-01-07T12:14:25.683Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuureig.github.io"/>
     <link rel="self" href="https://yuureig.github.io/atom.xml"/>
     <subtitle>小市民的生活记录</subtitle>
     <logo>https://yuureig.github.io/images/avatar.png</logo>
     <icon>https://yuureig.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 无胆之辈</rights>
+    <rights>All rights reserved 2022, 无胆之辈</rights>
     <entry>
         <title type="html"><![CDATA[不便的便利屋-（日剧+搞笑+北海道）]]></title>
         <id>https://yuureig.github.io/post/bu-bian-de-bian-li-wu-ri-ju-gao-xiao-bei-hai-dao/</id>
