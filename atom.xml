@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuureig.github.io</id>
     <title>Gridea</title>
-    <updated>2022-01-24T07:28:55.866Z</updated>
+    <updated>2022-01-25T09:45:45.959Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuureig.github.io"/>
     <link rel="self" href="https://yuureig.github.io/atom.xml"/>
@@ -11,44 +11,28 @@
     <icon>https://yuureig.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[test title]]></title>
-        <id>https://yuureig.github.io/post/test-title/</id>
-        <link href="https://yuureig.github.io/post/test-title/">
+        <title type="html"><![CDATA[寄生兽：生命的准则-（TV动画+影评）]]></title>
+        <id>https://yuureig.github.io/post/ji-sheng-shou-sheng-ming-de-zhun-ze-tv-dong-hua-ying-ping/</id>
+        <link href="https://yuureig.github.io/post/ji-sheng-shou-sheng-ming-de-zhun-ze-tv-dong-hua-ying-ping/">
         </link>
-        <updated>2022-01-24T07:28:16.000Z</updated>
-        <content type="html"><![CDATA[<p>test test</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://yuureig.github.io/post/hello-gridea/</id>
-        <link href="https://yuureig.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <updated>2022-01-25T09:42:34.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1635854890846.jfif" alt="" loading="lazy"></figure>
+<p><strong>寄生兽：生命的准则</strong>-9-（2014.10.8）</p>
+<blockquote>
+<p>某天于地球上凭空出现许多孢子，其中诞生的幼虫侵入身体后，以寄生脑部为目标，<br>
+寄生完成后与脑部细胞同化，管理这个“死掉的身体”。它们能任意变形，其食物便是寄生体相同的物种。<br>
+由于寄生生物的出现，到处频传残忍的杀人事件，但人类却淡漠地忽视这种仍属少数的案件，<br>
+而寄生生物逐渐了解人类世界，学会开始计划组织并利用政治的力量，使世界陷入恐慌中。<br>
+泉新一，普通的高中生，但他却是被寄生生物寄生的人类之一，但是由于某种意外，<br>
+寄生在他体内的生物并没有吃掉他的大脑，而只是取代了他的右手。<br>
+本性善良正直的泉新一没有被这突如其来的残酷命运击倒，<br>
+为了被寄生生物杀死的亲友以及所有人类的未来，他决心与其他完全体寄生兽进行殊死搏斗。</p>
+</blockquote>
+<hr>
+<p>也许视觉上的精彩程度让其算不上神作，甚至佳作，但是在感情的表现上，在人性的探讨上，至少完全吸引了我。<br>
+从名字和视觉上看，如此猎奇的作品，怎么能让人感受到温暖，怎么能让人感受到自私，怎么能让人感受到不断的思考……<br>
+但事实上，确实都已达到……剧情上的决绝，让人难以割舍的同时，又让人印象深刻，一次又一次心痛，<br>
+就在快要承受不住的时候，又送来最极致的温暖……当然，对人性的思考让此动画上升了不止一个高度……</p>
 ]]></content>
     </entry>
 </feed>
