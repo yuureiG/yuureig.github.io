@@ -1,0 +1,324 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Excel知多少-（公式+命令+常用办公解决方案） | 无胆之辈</title>
+
+<link rel="shortcut icon" href="https://yuureig.github.io/favicon.ico?v=1643772118751">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yuureig.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            无胆之辈
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1643772118751" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Excel知多少-（公式+命令+常用办公解决方案）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-02-02 ·
+                    </time>
+                    
+                        <a href="https://yuureig.github.io/tag/nQo8kiuCC/" class="post-tags">
+                            # 工作浮云
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>[toc]</p>
+<h1 id="1-增减插入行">1. 增减插入行</h1>
+<pre><code>##1.1. 隔行插入空行（如A1~A10）
+</code></pre>
+<blockquote>
+<p>1    alt+f11，添加如下代码后f5执行</p>
+</blockquote>
+<pre><code>Sub main()
+For I = 10 To 2 Step -1
+Rows(I).Insert
+Next
+End Sub
+</code></pre>
+<pre><code>Sub 插入空行()
+
+For i = 1 To 10   #10即插入10行
+
+Cells(2 * i, 1).Select   #(2 * i, 1)即在第2*i行，第1列处插入
+
+Selection.EntireRow.Insert
+
+Next i
+
+End Sub
+
+</code></pre>
+<blockquote>
+<p>也可以添加数字辅助列，通过排序来实现空行插入。</p>
+</blockquote>
+<hr>
+<pre><code>##1.2. 隔行排序（制作双语字幕）
+</code></pre>
+<ol>
+<li>将原文和译文字幕放在同一列，中间不留空行</li>
+<li>字幕左边插入一列，对原文以奇数填充（13579…），译文以偶数填充（246810…）</li>
+<li>对数字列按升序排序，得到的结果就是“1句原文+1句译文”的格式了</li>
+</ol>
+<hr>
+<h1 id="2-重复行相同行">2. 重复行+相同行</h1>
+<pre><code>##2.1. 如何删除重复行
+</code></pre>
+<ol>
+<li>全选数据区域→数据菜单→删除重复项→全选（表示所有数据都相同的行才会被删除）</li>
+</ol>
+<hr>
+<pre><code>##2.2. 如何快速对比两列数据是否相同
+</code></pre>
+<ol>
+<li>选中数据区域</li>
+<li>ctrl+\</li>
+<li>此时不相同的数据即被选中，填充颜色后即可进行排序</li>
+</ol>
+<hr>
+<pre><code>##2.3. 如何对比多列数据是否相同
+</code></pre>
+<ol>
+<li>在数据最后一列输入公式</li>
+</ol>
+<pre><code>=if(a2=b2,&quot;同&quot;,&quot;不同&quot;) 
+=if(exact(a2=b2)=true,&quot;同&quot;,&quot;不同&quot;) （区分大小写）
+</code></pre>
+<ol start="2">
+<li>然后可以对结果按条件格式显示或排序，方便查看</li>
+</ol>
+<hr>
+<pre><code>##2.4. 如何标出完全重复行（多条件求相同行）
+</code></pre>
+<ol>
+<li>开始→条件格式→新建规则→使用公式确定要设置格式的单元格</li>
+<li>输入公式</li>
+</ol>
+<pre><code>=sumproduct(($a$1:$a$15=$a1)*($b$1:$b$15=$b1))＞1
+</code></pre>
+<p><strong>示例公式表示有ab两列，各15个数据。先找出a列相同数据，再看这些相同数据对应的b列数据是否相同，如果相同则对应的行为完全相同行（有时候公式会出错，不知原因）</strong><br>
+3.    设置单元格颜色为填充方式，这样方便按单元格颜色排序</p>
+<hr>
+<h1 id="3-多条件处理">3. 多条件处理</h1>
+<pre><code>##3.1. 如何按单元格颜色+数值大小排序
+</code></pre>
+<ol>
+<li>开始→排序和筛选→自定义排序→排序依据选择单元格颜色</li>
+<li>左上角添加条件→排序依据选择数值</li>
+</ol>
+<hr>
+<pre><code>##3.2. 如何多条件求和
+</code></pre>
+<pre><code>=SUMIFS(B2:B1001,C2:C1001,K2,D2:D1001,L1)    （sumifs函数表示求和数据区+条件区1+条件1+条件区2+条件2+……）
+</code></pre>
+<p>以上公式表示先找出C列中的K2，然后找出这些K2在D列中对应的L1，最后求这些L1在B列中的和。</p>
+<hr>
+<h1 id="4-单元格拆分">4. 单元格拆分</h1>
+<pre><code>##4.1. 中英文分离
+</code></pre>
+<pre><code>=left(a1,2)   （表示将a1单元格最左边的2个字符拆分出来）
+=right(a1,len(a1)-2)   （len函数表示返回单元格字符数）
+=left(a1,lenb(a1)-len(a1))   （lenb函数表示返回单元格字节数。这个公式可将单元格最左边不固定数量的中文类2字节字符拆分出来）
+</code></pre>
+<hr>
+<h1 id="5-单元格转换">5. 单元格转换</h1>
+<pre><code>##5.1. 全半角转换
+</code></pre>
+<pre><code>=asc(a1)   （将a1单元格内的全角字符转换为半角）
+=widechar(a1)   （将a1单元格内的半角字符转换为全角）
+</code></pre>
+<hr>
+<pre><code>##5.2. 字符替换
+</code></pre>
+<pre><code>=substitute(a1,&quot;!&quot;,&quot;?&quot;)   （表示将a1单元格内的“!”全部替换为“?”）
+=substitute(substitute(a1,&quot;!&quot;,&quot;?&quot;),&quot;@&quot;,&quot;$&quot;)   （可在上一步的基础上多层嵌套）
+</code></pre>
+<hr>
+<h1 id="6-复制粘贴">6. 复制粘贴</h1>
+<pre><code>##6.1. 快速复制
+</code></pre>
+<ul>
+<li>拖动单元格右下角的填充柄进行复制   （不受方向限制，但数据量大则效率低下）</li>
+<li><strong>双击填充柄进行复制</strong>    （效率高，但只可向下复制）</li>
+<li><strong>先复制单元格，然后选择目标区域，按下enter/ctrl+v即可</strong>    （不受方向+连续性限制）</li>
+<li><strong>先选中源单元格，然后在左上角地址栏中输入目标区域（如c1:c15），再点击右边的编辑栏，最后在ctrl+enter</strong>    （不受方向限制，数据量大时效率高，但必须连续）</li>
+<li>先选中单元格，然后在地址栏中输入目标区域最后一个单元格地址（如c15）后按下shift+enter，再点击右边的编辑栏，最后在ctrl+enter    （同上）</li>
+</ul>
+<hr>
+<pre><code>##6.2. 粘贴时跳过空单元格
+</code></pre>
+<ul>
+<li>复制后右键→选择性粘贴→跳过空单元</li>
+</ul>
+<hr>
+<pre><code>##6.3. 快速不连续复制（多用于查找替换）
+</code></pre>
+<ul>
+<li>查找对象所在的全部单元格</li>
+<li>在查找对话框中点击查找结果，然后ctrl+a</li>
+<li>关掉查找对话框，在任意查找对象所在的单元格上右键复制</li>
+</ul>
+<blockquote>
+<p>此时粘贴后的结果是连续的，如果要保持和原对象所在的单元格（比如行）不变，参考6.4</p>
+</blockquote>
+<hr>
+<pre><code>##6.4. 快速不连续粘贴方法1（跳过隐藏行）
+</code></pre>
+<blockquote>
+<p>假设需要将A列中查找的所有不连续单元格，保持行不变复制到B列</p>
+</blockquote>
+<ul>
+<li>首先ctrl+9将正文内容全部隐藏</li>
+<li>选中A列，查找对象所在全部单元格</li>
+<li>在查找对话框中点击查找结果，然后ctrl+a</li>
+<li>关闭查找对话框，按下ctrl+shift+9将显示出查找对象在A列所有单元格</li>
+<li>使用excel插件“方方格子”→复制粘贴→复制并粘贴可见区域，保持“源区域+粘贴到”的单元格是一致后，点击确定即可</li>
+</ul>
+<hr>
+<pre><code>##6.5. 快速不连续粘贴方法2（跳过隐藏行）
+</code></pre>
+<blockquote>
+<p>假设需要将A列中查找的所有不连续单元格，保持行不变复制到B列</p>
+</blockquote>
+<ul>
+<li>添加C列辅助列“序号”，向下填充连续的序号</li>
+<li>筛选或按6.4的方法只显示出对象所在单元格</li>
+<li>添加D列辅助列“标记”，填充公式“=row()”</li>
+<li>取消筛选或隐藏，按D列排序，将对象所在单元格排在一起</li>
+<li>复制对象所在的全部单元格，粘贴到B列</li>
+<li>按C列还原之前的排序后，删除CD辅助列即可<br>
+<a href="http://www.icanzc.com/excel/4915.html#fromHistory">More</a></li>
+</ul>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://yuureig.github.io/post/trados-zhi-duo-shao-fu-zhu-fan-yi-ruan-jian-catzhu-yu-ku-yu-liao-ku-ji-yi-ku-dui-qi/" class="post-title gt-a-link">
+                    Trados知多少-（辅助翻译软件+CAT+术语库+语料库+记忆库+对齐）
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">虽是底层小市民，但总想留下来过的痕迹……</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://yuureig.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
