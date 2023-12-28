@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://yuureig.github.io</id>
+    <id>http://localhost:4000</id>
     <title>无胆之辈</title>
-    <updated>2023-09-17T03:48:12.445Z</updated>
+    <updated>2023-09-17T08:31:12.941Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://yuureig.github.io"/>
-    <link rel="self" href="https://yuureig.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>虽是底层小市民，但总想留下来过的痕迹……</subtitle>
-    <logo>https://yuureig.github.io/images/avatar.png</logo>
-    <icon>https://yuureig.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2023, 无胆之辈</rights>
     <entry>
         <title type="html"><![CDATA[天地创造-（天地創造+通关感想+sfc）]]></title>
-        <id>https://yuureig.github.io/post/tian-di-chuang-zao-tian-di-chuang-zao-tong-guan-gan-xiang-sfc/</id>
-        <link href="https://yuureig.github.io/post/tian-di-chuang-zao-tian-di-chuang-zao-tong-guan-gan-xiang-sfc/">
+        <id>http://localhost:4000/post/tian-di-chuang-zao-tian-di-chuang-zao-tong-guan-gan-xiang-sfc/</id>
+        <link href="http://localhost:4000/post/tian-di-chuang-zao-tian-di-chuang-zao-tong-guan-gan-xiang-sfc/">
         </link>
         <updated>2023-09-16T09:29:30.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694856609651.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694856609651.jpg" alt="" loading="lazy"></figure>
 <p><strong>天地创造-8</strong>-（1995.10.20）</p>
 <blockquote>
 <p>主人公阿空平静地生活在与世隔绝的科里司小村里。村中长老家旁的‘蓝色’禁忌之门一直无法打开，好奇的村民终于忍不住对‘绝对不能打开的门’下手了……；结果因破坏了空间平衡，全村人都被冰霜了（阿空、长老除外）。为拯救村民及爱人，阿空受长老的委托担负使命，在地底世界打开了地表大陆5大板块的封印，然后又进入地表世界，相继唤醒植物、飞禽、季风、祈雨、走兽、人类，经历封建社会、资本社会、现代都市、高度文明等进程。阿空在冒险中却发现一个神秘的与地底世界家乡一摸一样的村庄（科里司村），以及与青梅竹马一摸一样名字也相同的少女（艾娜），原来地表世界和地底世界互成镜像……渐渐发现更多真相。</p>
@@ -51,11 +51,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[埃塞尔与欧内斯特-（动画电影+影评）]]></title>
-        <id>https://yuureig.github.io/post/ai-sai-er-yu-ou-nei-si-te-dong-hua-dian-ying-ying-ping/</id>
-        <link href="https://yuureig.github.io/post/ai-sai-er-yu-ou-nei-si-te-dong-hua-dian-ying-ying-ping/">
+        <id>http://localhost:4000/post/ai-sai-er-yu-ou-nei-si-te-dong-hua-dian-ying-ying-ping/</id>
+        <link href="http://localhost:4000/post/ai-sai-er-yu-ou-nei-si-te-dong-hua-dian-ying-ying-ping/">
         </link>
         <updated>2023-09-16T09:20:13.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694856030152.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694856030152.png" alt="" loading="lazy"></figure>
 <p><strong>埃塞尔与欧内斯特-9</strong>-（2016.10.28）</p>
 <blockquote>
 <p>英国手绘动画电影，改编自Raymond Briggs以其父母真实人生为故事所绘的获奖和畅销绘本，讲述Raymond Briggs的父母，一对普通英国夫妇从1928年初遇相爱到1971年相继离世的故事，日子随男主人的发际线一起消逝，一生平淡无奇但相守终生温情动人，同时也是一部英国编年史，期间穿插着不少的历史事件。</p>
@@ -86,11 +86,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[阿修罗-（アスラ+动画电影+影评）]]></title>
-        <id>https://yuureig.github.io/post/a-xiu-luo-asuradong-hua-dian-ying-ying-ping/</id>
-        <link href="https://yuureig.github.io/post/a-xiu-luo-asuradong-hua-dian-ying-ying-ping/">
+        <id>http://localhost:4000/post/a-xiu-luo-asuradong-hua-dian-ying-ying-ping/</id>
+        <link href="http://localhost:4000/post/a-xiu-luo-asuradong-hua-dian-ying-ying-ping/">
         </link>
         <updated>2023-09-16T03:49:37.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694836547930.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694836547930.jpg" alt="" loading="lazy"></figure>
 <p><strong>阿修罗-9</strong>-（2012.9.29）</p>
 <blockquote>
 <p>平安时代末期（15世纪中叶），因洪水、干旱和饥馑，作为日本都城的巍巍京都已化为一片荒芜的废土。<br>
@@ -120,11 +120,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[半泽直树-（半沢直樹+日剧+影评）]]></title>
-        <id>https://yuureig.github.io/post/ban-ze-zhi-shu-ban-ze-zhi-shu-ri-ju-ying-ping/</id>
-        <link href="https://yuureig.github.io/post/ban-ze-zhi-shu-ban-ze-zhi-shu-ri-ju-ying-ping/">
+        <id>http://localhost:4000/post/ban-ze-zhi-shu-ban-ze-zhi-shu-ri-ju-ying-ping/</id>
+        <link href="http://localhost:4000/post/ban-ze-zhi-shu-ban-ze-zhi-shu-ri-ju-ying-ping/">
         </link>
         <updated>2023-09-16T03:33:51.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694835251825.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694835251825.jpg" alt="" loading="lazy"></figure>
 <p><strong>半泽直树1-9</strong>-（2013）<br>
 <strong>半泽直树2-8.5</strong>-（2020）</p>
 <blockquote>
@@ -153,11 +153,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[求婚大作战-（プロポーズ大作戦+日剧+影评）]]></title>
-        <id>https://yuureig.github.io/post/qiu-hun-da-zuo-zhan-puropozuda-zuo-zhan-ri-ju-ying-ping/</id>
-        <link href="https://yuureig.github.io/post/qiu-hun-da-zuo-zhan-puropozuda-zuo-zhan-ri-ju-ying-ping/">
+        <id>http://localhost:4000/post/qiu-hun-da-zuo-zhan-puropozuda-zuo-zhan-ri-ju-ying-ping/</id>
+        <link href="http://localhost:4000/post/qiu-hun-da-zuo-zhan-puropozuda-zuo-zhan-ri-ju-ying-ping/">
         </link>
         <updated>2023-09-16T02:47:50.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694832491633.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694832491633.jpg" alt="" loading="lazy"></figure>
 <p><strong>求婚大作战-8.5</strong>-（2007.4.16）</p>
 <blockquote>
 <p>人总是等到失去后才知道珍惜，如果可以从头来过，是否就可以弥补缺憾，达成心愿？<br>
@@ -184,11 +184,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[代价-（代償+日剧+影评）]]></title>
-        <id>https://yuureig.github.io/post/dai-jie-dai-chang-ri-ju-ying-ping/</id>
-        <link href="https://yuureig.github.io/post/dai-jie-dai-chang-ri-ju-ying-ping/">
+        <id>http://localhost:4000/post/dai-jie-dai-chang-ri-ju-ying-ping/</id>
+        <link href="http://localhost:4000/post/dai-jie-dai-chang-ri-ju-ying-ping/">
         </link>
         <updated>2023-09-16T02:19:09.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694830774253.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694830774253.jpg" alt="" loading="lazy"></figure>
 <p><strong>代价-8</strong>-（2016.11.18）</p>
 <blockquote>
 <p>男主本来是一个事业蒸蒸日上的律师，前途可谓光明，<br>
@@ -212,11 +212,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[101次求婚-（101回目のプロポーズ+日剧+爱情+搞笑）]]></title>
-        <id>https://yuureig.github.io/post/101-ci-qiu-hun-101-hui-mu-nopuropozuri-ju-ai-qing-gao-xiao/</id>
-        <link href="https://yuureig.github.io/post/101-ci-qiu-hun-101-hui-mu-nopuropozuri-ju-ai-qing-gao-xiao/">
+        <id>http://localhost:4000/post/101-ci-qiu-hun-101-hui-mu-nopuropozuri-ju-ai-qing-gao-xiao/</id>
+        <link href="http://localhost:4000/post/101-ci-qiu-hun-101-hui-mu-nopuropozuri-ju-ai-qing-gao-xiao/">
         </link>
         <updated>2023-09-15T09:47:13.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694772442372.webp" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694772442372.webp" alt="" loading="lazy"></figure>
 <p><strong>101次求婚-8.5</strong>-（1991.7.1）</p>
 <blockquote>
 <p>该片讲的是连续99次求婚失败的中年男主，在第100次时终于遇到了其愿意奉献一切去爱的女主。<br>
@@ -247,11 +247,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于伊丽-（伊朗+情感）]]></title>
-        <id>https://yuureig.github.io/post/guan-yu-yi-li-yi-lang-qing-gan/</id>
-        <link href="https://yuureig.github.io/post/guan-yu-yi-li-yi-lang-qing-gan/">
+        <id>http://localhost:4000/post/guan-yu-yi-li-yi-lang-qing-gan/</id>
+        <link href="http://localhost:4000/post/guan-yu-yi-li-yi-lang-qing-gan/">
         </link>
         <updated>2023-09-15T08:56:48.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694768231394.webp" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694768231394.webp" alt="" loading="lazy"></figure>
 <p><strong>关于伊丽-8-</strong>（2009.6.6）</p>
 <blockquote>
 <p>伊丽虽已订婚，但早已对未婚夫没有了感情，苦于家人反对和未婚夫的不放手而持续痛苦着。正巧伊丽所教的一位幼儿园小朋友家里有一个周末聚会，其中有一位刚离婚叫阿莫德的男性，于是小朋友的妈妈便极力邀请伊丽来参加，实际上就是相亲。<br>
@@ -267,11 +267,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[幻影-（印度+反恐+暗杀）]]></title>
-        <id>https://yuureig.github.io/post/huan-ying-yin-du-fan-kong-an-sha/</id>
-        <link href="https://yuureig.github.io/post/huan-ying-yin-du-fan-kong-an-sha/">
+        <id>http://localhost:4000/post/huan-ying-yin-du-fan-kong-an-sha/</id>
+        <link href="http://localhost:4000/post/huan-ying-yin-du-fan-kong-an-sha/">
         </link>
         <updated>2023-09-15T08:48:20.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1694767710555.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1694767710555.png" alt="" loading="lazy"></figure>
 <p><strong>幻影-8.5</strong>-（2015.8.28）</p>
 <blockquote>
 <p>该片为反恐题材，但却有着真实的背景基础——2008.11.26印度孟买恐怖袭击（几百人死伤）。在这样的背景下，男主受印度政府人员多次拜访后终被荣誉之心打动，接下了暗杀恐怖组织“虔诚军”头目的极秘任务。</p>
@@ -285,11 +285,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[23-8-17-疑似二阳]]></title>
-        <id>https://yuureig.github.io/post/23-8-17-yi-si-er-yang/</id>
-        <link href="https://yuureig.github.io/post/23-8-17-yi-si-er-yang/">
+        <id>http://localhost:4000/post/23-8-17-yi-si-er-yang/</id>
+        <link href="http://localhost:4000/post/23-8-17-yi-si-er-yang/">
         </link>
         <updated>2023-08-18T07:31:42.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1692344941775.png" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1692344941775.png" alt="" loading="lazy"><br>
 前几天疑似二阳了。<br>
 去年12月中旬应该是一阳，但是都没有检测，只是凭症状和时间，推测大概率是感染新冠了。<br>
 当时也没有想记录下来，但这次发烧和酸痛整得我够呛，简单记录一下吧。</p>
