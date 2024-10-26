@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://yuureig.github.io</id>
     <title>无胆之辈</title>
-    <updated>2024-10-25T09:29:04.390Z</updated>
+    <updated>2024-10-26T07:04:24.259Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://yuureig.github.io"/>
+    <link rel="self" href="https://yuureig.github.io/atom.xml"/>
     <subtitle>虽是底层小市民，但总想留下来过的痕迹……</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://yuureig.github.io/images/avatar.png</logo>
+    <icon>https://yuureig.github.io/favicon.ico</icon>
     <rights>All rights reserved 2024, 无胆之辈</rights>
     <entry>
         <title type="html"><![CDATA[其他置顶帖]]></title>
-        <id>http://localhost:4000/post/qi-ta-zhi-ding-tie/</id>
-        <link href="http://localhost:4000/post/qi-ta-zhi-ding-tie/">
+        <id>https://yuureig.github.io/post/qi-ta-zhi-ding-tie/</id>
+        <link href="https://yuureig.github.io/post/qi-ta-zhi-ding-tie/">
         </link>
         <updated>2024-10-23T07:51:07.000Z</updated>
         <content type="html"><![CDATA[<h1 id="我是谁"><a href="https://yuureig.github.io/post/about/">我是谁</a></h1>
@@ -34,8 +34,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[主观排雷]]></title>
-        <id>http://localhost:4000/post/zhu-guan-pai-lei/</id>
-        <link href="http://localhost:4000/post/zhu-guan-pai-lei/">
+        <id>https://yuureig.github.io/post/zhu-guan-pai-lei/</id>
+        <link href="https://yuureig.github.io/post/zhu-guan-pai-lei/">
         </link>
         <updated>2024-10-23T07:39:41.000Z</updated>
         <content type="html"><![CDATA[<ul>
@@ -233,11 +233,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[最终幻想7-核心危机-（剑与魔法+外传）]]></title>
-        <id>http://localhost:4000/post/zui-zhong-huan-xiang-7-he-xin-wei-ji-jian-yu-mo-fa-wai-chuan/</id>
-        <link href="http://localhost:4000/post/zui-zhong-huan-xiang-7-he-xin-wei-ji-jian-yu-mo-fa-wai-chuan/">
+        <id>https://yuureig.github.io/post/zui-zhong-huan-xiang-7-he-xin-wei-ji-jian-yu-mo-fa-wai-chuan/</id>
+        <link href="https://yuureig.github.io/post/zui-zhong-huan-xiang-7-he-xin-wei-ji-jian-yu-mo-fa-wai-chuan/">
         </link>
         <updated>2024-10-23T07:18:57.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1729667945402.webp" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1729667945402.webp" alt="" loading="lazy"><br>
 <strong>最终幻想7-核心危机-7</strong>-（2007-09-13）</p>
 <blockquote>
 <p>《最终幻想7核心危机》是由史克威尔·艾尼克斯研发的一款角色扮演游戏，于2007年9月13日发售。游戏以本传《最终幻想7》7年前的时空为背景，玩家将扮演与本传主角克劳德有着深厚关联的扎克斯·菲尔，通过他来体验本传中未解的往昔秘辛。游戏的战斗系统结合了动作和策略元素，提供了紧张刺激的战斗体验。</p>
@@ -278,11 +278,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[天地劫-神魔至尊传-（仙侠+策略战棋+硬核高难度）]]></title>
-        <id>http://localhost:4000/post/tian-di-jie-shen-mo-zhi-zun-chuan-xian-xia-ce-lue-zhan-qi-ying-he-gao-nan-du/</id>
-        <link href="http://localhost:4000/post/tian-di-jie-shen-mo-zhi-zun-chuan-xian-xia-ce-lue-zhan-qi-ying-he-gao-nan-du/">
+        <id>https://yuureig.github.io/post/tian-di-jie-shen-mo-zhi-zun-chuan-xian-xia-ce-lue-zhan-qi-ying-he-gao-nan-du/</id>
+        <link href="https://yuureig.github.io/post/tian-di-jie-shen-mo-zhi-zun-chuan-xian-xia-ce-lue-zhan-qi-ying-he-gao-nan-du/">
         </link>
         <updated>2024-10-23T07:12:38.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1729667566252.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1729667566252.jpg" alt="" loading="lazy"><br>
 <strong>天地劫-神魔至尊传-8.2/7.5</strong>-（1999-09-15）</p>
 <blockquote>
 <p>游戏的时代背景设定在中国古代，一个妖魔精怪横行，御剑、魔道与咒法活跃的时代。自黄帝大败蚩尤后，三界界限分明，但妖魔之祸并未平息。为了对抗这些异界访客，一些有识之士修炼御剑之法或精研阴阳玄法咒术。游戏中，玩家将加入天玄门，参与清剿妖魔的行动，揭开隐藏在黑暗中的秘密。游戏的核心玩法包括角色培养、战斗策略以及探索古代世界的神秘。</p>
@@ -401,11 +401,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[人类简史-（人类历史概览+人类社会革命+书籍）]]></title>
-        <id>http://localhost:4000/post/ren-lei-jian-shi-ren-lei-li-shi-gai-lan-ren-lei-she-hui-ge-ming-shu-ji/</id>
-        <link href="http://localhost:4000/post/ren-lei-jian-shi-ren-lei-li-shi-gai-lan-ren-lei-she-hui-ge-ming-shu-ji/">
+        <id>https://yuureig.github.io/post/ren-lei-jian-shi-ren-lei-li-shi-gai-lan-ren-lei-she-hui-ge-ming-shu-ji/</id>
+        <link href="https://yuureig.github.io/post/ren-lei-jian-shi-ren-lei-li-shi-gai-lan-ren-lei-she-hui-ge-ming-shu-ji/">
         </link>
         <updated>2024-10-23T07:00:49.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1729666984648.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1729666984648.jpg" alt="" loading="lazy"><br>
 <strong>人类简史-8.2</strong>-（2014-11）</p>
 <blockquote>
 <p>十万年前，地球上至少有六种不同的人<br>
@@ -501,11 +501,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[八方旅人-（歧路旅人+群像剧+剑与魔法+传统JPRG）]]></title>
-        <id>http://localhost:4000/post/ba-fang-lu-ren-qi-lu-lu-ren-qun-xiang-ju-jian-yu-mo-fa-chuan-tong-jprg/</id>
-        <link href="http://localhost:4000/post/ba-fang-lu-ren-qi-lu-lu-ren-qun-xiang-ju-jian-yu-mo-fa-chuan-tong-jprg/">
+        <id>https://yuureig.github.io/post/ba-fang-lu-ren-qi-lu-lu-ren-qun-xiang-ju-jian-yu-mo-fa-chuan-tong-jprg/</id>
+        <link href="https://yuureig.github.io/post/ba-fang-lu-ren-qi-lu-lu-ren-qun-xiang-ju-jian-yu-mo-fa-chuan-tong-jprg/">
         </link>
         <updated>2024-08-07T09:00:56.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1723021273510.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1723021273510.jpg" alt="" loading="lazy"><br>
 <strong>八方旅人-8</strong>-（2018-07-13）</p>
 <blockquote>
 <p>本作是 Square Enix 制作的登陆任天堂 Switch 平台的 RPG 游戏，游戏采用了「2D-HD」的高清点阵风格画面，展现出了全新高清怀旧风格的形式，玩家可以看到 3D 建模的城市与像素风格的人物、怪物结合在一起，风格非常新奇。游戏将会有 8 名主人公登场，每个人出身不同，职业也不同，拥有各自独特的能力。</p>
@@ -574,11 +574,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[少数幸运儿-（we happy few+反乌托邦+开放世界+收集）]]></title>
-        <id>http://localhost:4000/post/shao-shu-xing-yun-er-we-happy-fewfan-wu-tuo-bang-kai-fang-shi-jie-shou-ji/</id>
-        <link href="http://localhost:4000/post/shao-shu-xing-yun-er-we-happy-fewfan-wu-tuo-bang-kai-fang-shi-jie-shou-ji/">
+        <id>https://yuureig.github.io/post/shao-shu-xing-yun-er-we-happy-fewfan-wu-tuo-bang-kai-fang-shi-jie-shou-ji/</id>
+        <link href="https://yuureig.github.io/post/shao-shu-xing-yun-er-we-happy-fewfan-wu-tuo-bang-kai-fang-shi-jie-shou-ji/">
         </link>
         <updated>2024-08-07T08:47:30.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1723020464663.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1723020464663.jpg" alt="" loading="lazy"><br>
 <strong>少数幸运儿-7</strong>-（2018-08-10）</p>
 <blockquote>
 <p>《少数幸运儿》的故事发生在二战后被德国领统治的英国惠灵顿，城市的居民都必须在管制下服用一种致幻剂——快活药（JOY），服药后会产生幻觉所见到的一切都会是和谐美好的。<br>
@@ -630,11 +630,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[黑暗集会-（捉妖缚灵+轻度恐怖+暗黑版口袋妖怪+暗黑宝可梦+动画）]]></title>
-        <id>http://localhost:4000/post/hei-an-ji-hui-zhuo-yao-fu-ling-qing-du-kong-bu-an-hei-ban-kou-dai-yao-guai-an-hei-bao-ke-meng-dong-hua/</id>
-        <link href="http://localhost:4000/post/hei-an-ji-hui-zhuo-yao-fu-ling-qing-du-kong-bu-an-hei-ban-kou-dai-yao-guai-an-hei-bao-ke-meng-dong-hua/">
+        <id>https://yuureig.github.io/post/hei-an-ji-hui-zhuo-yao-fu-ling-qing-du-kong-bu-an-hei-ban-kou-dai-yao-guai-an-hei-bao-ke-meng-dong-hua/</id>
+        <link href="https://yuureig.github.io/post/hei-an-ji-hui-zhuo-yao-fu-ling-qing-du-kong-bu-an-hei-ban-kou-dai-yao-guai-an-hei-bao-ke-meng-dong-hua/">
         </link>
         <updated>2024-06-12T14:38:19.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1718203138434.png" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1718203138434.png" alt="" loading="lazy"><br>
 <strong>黑暗集会-7.5</strong>-（2023-07-09）</p>
 <blockquote>
 <p>拥有灵媒体质的幻灯河萤多朗，自从过去受到灵障，而将青梅竹马卷入其中后便足不出户。就在他为了回归社会而开始当家教时，遇见了一位拥有神秘双眼的少女.宝月夜宵。<br>
@@ -665,11 +665,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[自然法则-（天赋教义+Natural Doctrine+硬核SLG+创新策略战棋+冷门小众+游戏）]]></title>
-        <id>http://localhost:4000/post/zi-ran-fa-ze-tian-fu-jiao-yi-natural-doctrineying-he-slgchuang-xin-ce-lue-zhan-qi-leng-men-xiao-zhong-you-xi/</id>
-        <link href="http://localhost:4000/post/zi-ran-fa-ze-tian-fu-jiao-yi-natural-doctrineying-he-slgchuang-xin-ce-lue-zhan-qi-leng-men-xiao-zhong-you-xi/">
+        <id>https://yuureig.github.io/post/zi-ran-fa-ze-tian-fu-jiao-yi-natural-doctrineying-he-slgchuang-xin-ce-lue-zhan-qi-leng-men-xiao-zhong-you-xi/</id>
+        <link href="https://yuureig.github.io/post/zi-ran-fa-ze-tian-fu-jiao-yi-natural-doctrineying-he-slgchuang-xin-ce-lue-zhan-qi-leng-men-xiao-zhong-you-xi/">
         </link>
         <updated>2024-06-10T12:48:16.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1718023707739.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1718023707739.jpg" alt="" loading="lazy"><br>
 <strong>自然法则-核心8/整体6</strong>-（2014-04-03）</p>
 <blockquote>
 <p>角川游戏工作室推出的《自然法则》的舞台是剑与魔法的奇幻世界，以“自然”与“法则”为主题，玩家要以王国的城堡为中心在世界中与亚人等其他种族进行对抗，描绘出保护魔物入侵人类生活圈的守护者们的故事。<br>
@@ -744,11 +744,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[见面之后5秒开始战斗-（大逃杀+特殊能力+动画）]]></title>
-        <id>http://localhost:4000/post/jian-mian-zhi-hou-5-miao-kai-shi-zhan-dou-da-tao-sha-te-shu-neng-li-dong-hua/</id>
-        <link href="http://localhost:4000/post/jian-mian-zhi-hou-5-miao-kai-shi-zhan-dou-da-tao-sha-te-shu-neng-li-dong-hua/">
+        <id>https://yuureig.github.io/post/jian-mian-zhi-hou-5-miao-kai-shi-zhan-dou-da-tao-sha-te-shu-neng-li-dong-hua/</id>
+        <link href="https://yuureig.github.io/post/jian-mian-zhi-hou-5-miao-kai-shi-zhan-dou-da-tao-sha-te-shu-neng-li-dong-hua/">
         </link>
         <updated>2024-05-26T09:31:34.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1716715900741.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://yuureig.github.io/post-images/1716715900741.jpg" alt="" loading="lazy"><br>
 <strong>见面之后5秒开始战斗-7.5</strong>-（2021-07-13）</p>
 <blockquote>
 <p>特别喜欢游戏和金平糖的高中生白柳启，有一天，被一个自称是魅音的神秘女子卷入了战场。 魅音对聚集起来的人们说：“你们已经没有户籍了。” “请成为实验观测器吧。”在场的每人都被给予了特殊的能力参加各种项目。 下定决心要摧毁这一组织的启，以谁都无法预料的能力和罕见的“脑”能力为武器，新时代的头脑派能力战斗开始。</p>
