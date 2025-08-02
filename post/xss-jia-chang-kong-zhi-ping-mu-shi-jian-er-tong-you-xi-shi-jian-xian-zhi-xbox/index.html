@@ -1,0 +1,226 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Xss家长控制-（屏幕时间+儿童游戏时间限制+xbox） | 无胆之辈</title>
+
+<link rel="shortcut icon" href="https://yuureig.github.io/favicon.ico?v=1754123956033">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yuureig.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            无胆之辈
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1754123956033" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Xss家长控制-（屏幕时间+儿童游戏时间限制+xbox）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2025-08-02 ·
+                    </time>
+                    
+                        <a href="https://yuureig.github.io/tag/rZDlUzsZP/" class="post-tags">
+                            # 休闲娱乐
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1754117846482.png" alt="" loading="lazy"></figure>
+<p>我给侄儿的switch设置有每日游戏时间限制，即便暑假每天最长也不超过1.5小时，<br>
+而且买游戏买手柄这些都得靠他自己赚的积分来兑换。<br>
+由于他习惯不好，我也无法像他爸妈那样持续教育他，<br>
+所以通过培养不挑食、做家务、科学用眼等好习惯来赚积分的方式，他主动选择放弃。<br>
+现在就只剩下通过考试成绩来兑换积分了，但考试也越来越难了，<br>
+导致他现在积分低得可怜，连一个游戏都买不起，switch2这种新主机就更不用想了……</p>
+<p>后来我就提议用xss和他换switch，因为xss上我买了十多个游戏。<br>
+虽然有xgp这种高性价比的游玩方式，但侄儿积分不够，连一个月都买不起，<br>
+即便可以买一个月的服务，但因为每日游戏时间有限，所以买了也是浪费。<br>
+侄儿看到这么多未玩过的游戏，那叫一个高兴，当然愿意交换了，<br>
+于是我就开始琢磨怎么给xss设置类似于switch那样的家长控制了。<br>
+结果一弄不要紧，从早弄到晚，耗费了我整整一天的时间，<br>
+<strong>进一步证明了我的判断：微软的很多服务确实垃圾无比！</strong></p>
+<p>微软真的太大了，说其是一个科技帝国，我觉得丝毫不夸张。<br>
+规模之大，根系之深，导致其内部恐怕都没有一个人能完全厘清其各种服务的来龙去脉。<br>
+<strong>遇到相同或近似功能模块在不同产品之间的接入，界面不同就不说了，<br>
+就连操作入口甚至操作逻辑都变了，体验如此混乱，难怪越来越多的用户都有此感受</strong>。<br>
+然而在可预见的未来除非有黑天鹅出现，否则微软帝国的倒闭实在不是易事，<br>
+只希望能有更多优秀的企业逐步蚕食微软，尽快干掉这只步履蹒跚的庞然大物。</p>
+<p>说多了，本来只是想记录一下xss家长控制的超复杂超繁琐的流程而已。<br>
+作为对比，我先说下switch的家长控制有多简单。</p>
+<ol>
+<li>手机上下个家长控制app。</li>
+<li>登录任天堂账号，关联swtich到该账号下。</li>
+<li>设置每天游玩时间，可统一也可独立设置，结束。</li>
+</ol>
+<p> <br>
+之后不管是谁登录那台switch，游戏时间都受限。<br>
+如果是家长玩，那就直接输入密码解除时间限制即可。<br>
+<strong>几年下来，switch这套直观简洁的逻辑没有任何问题，完美实现了家长的需求。<br>
+而反观xss的设置呢……绝对会让大家瞠目结舌的</strong>。</p>
+<hr>
+<ol>
+<li>打开微软网站，注册家长账号+儿童账号。</li>
+<li>登录家长账号添加儿童账号到家庭群。</li>
+<li>打开xss，添加儿童账号，输入账号名后却要求到微软指定网页输入验证码。</li>
+<li>打开微软指定页面，输入验证码后，又要求在网页上继续登录儿童账号。</li>
+<li>登录儿童账号后又需要打开第三方邮箱接收验证码。然而微软发送验证码有次数限制，大概是几十分钟内只能连续发送3~5次吧，如果你因为网络、操作或微软系统bug问题而超限了，那就等吧……</li>
+<li>好不容易收到验证码，填入后页面提示登录成功，可关闭该网页了。然而xss这边没有任何反应，只能点击返回，开始第3步~第6步的循环……</li>
+<li>第3步除了在微软网页进行验证外，也可直接在xss上用手柄进行后续操作。输入儿童账号名后，提示输入“新密码”（这里我就没懂了，为什么是输入新密码，我又没修改，只是登录而已）。</li>
+<li>输入新密码后，要求再次确认输入。好，一旦确认输入完成，界面马上返回，提示你继续输入“新密码”，至此又开始了无限循环……
+<ul>
+<li>我问了kimi、豆包、copilot，这些大模型都煞有介事像模像样言之凿凿地给出了一堆解决方案，结果呢没一个有用。</li>
+<li>最后我抱着仅存的一丝希望到B站搜了一下视频，没想到还真有两个视频提到了上述问题，一下子就解决了。原因就是因为微软的服务垃圾啊，不是bug问题就是逻辑有问题。</li>
+</ul>
+</li>
+<li>打开微软官网，登录儿童账号，在安全设置里把密码随便修改一下。然后重复第7步操作，登录成功。</li>
+<li>儿童账号登录好了，接下来开始设置每日游戏时间。“xbox family safety”有这个功能，但是需要谷歌三件套，只能请出18年就上战场的老将——红米。一番操作安装好了之后，app提示版本太旧，请更新。</li>
+<li>这种国外app，国内应用市场要么没有要么就是旧版，只能再安装“apkpure”这个应用市场来更新了。结果却发现连apkpure上面的“family safety”都是旧版的！！！可想而知微软的服务做得有多垃圾，连apkpure都不愿意更新这个app了。
+<ul>
+<li>又问了下大模型，说“xbox family settings”也有相关功能。</li>
+</ul>
+</li>
+<li>于是又下载了“family settings”，虽然进入app后就提示需要谷歌三件套才能运行，但关闭提示后发现游戏时间的设置功能是可以正常使用的。ok，需求到此圆满实现。</li>
+<li>……才怪。这么轻松就让你实现需求，那还能叫微软吗？由于家长和儿童账号都在xss上面，虽然儿童账号设置了每日游戏时间，但他可以切换到家长账号，那限制不就形同虚设了吗？所以还得在xss的设置里面给家长账号设一个密码，防止儿童切换。</li>
+<li>然而事情还没完呢，因为游戏都是家长买的，挂在家长账号下面，如果不登录一次家长账号，那么儿童账号是玩不了游戏的。可一旦登录了家长账号，那么之后就可以无密码随意切换了，喵喵的那限制不就又形同虚设了吗？（微软的产品经理们，为什么简单的事情可以搞得如此复杂？是不是每天尸位素餐，非得没事找事？）
+<ul>
+<li>又问了大模型，说需要使用“常用xbox”功能，才能解决这个问题。</li>
+</ul>
+</li>
+<li>xss登录家长账号，在设置里面将当前主机设为“常用xbox”。之后同主机下的其他账号就能游玩家长账号购买的所有游戏了。至此，家长控制的需求才完整实现，太累了……</li>
+</ol>
+<hr>
+<p>大家看到xbox的家长设置又多繁琐多复杂多恶心了吧。<br>
+对微软的产品使用得越多，好感就越低。<br>
+<strong>以后只要有方便的替代品，且微软服务垃圾如故，那么微软有多远滚多远</strong>。</p>
+<p>（记录：25-7-21）</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://yuureig.github.io/post/dong-jing-zui-e-ji-zhe-hei-dao-jing-cha/" class="post-title gt-a-link">
+                    东京罪恶-（记者+黑道+警察）
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">虽是底层小市民，但总想留下来过的痕迹……</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://yuureig.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
