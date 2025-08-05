@@ -1,0 +1,251 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>如何搭建个人博客-（gridea+github+独立博客+隐私匿名） | 无胆之辈</title>
+
+<link rel="shortcut icon" href="https://yuureig.github.io/favicon.ico?v=1754378832207">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yuureig.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            无胆之辈
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1754378832207" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    如何搭建个人博客-（gridea+github+独立博客+隐私匿名）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2025-08-05 ·
+                    </time>
+                    
+                        <a href="https://yuureig.github.io/tag/38ot1agKol/" class="post-tags">
+                            # 修罗百科
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1754378756548.png" alt="" loading="lazy"></figure>
+<p>[toc]</p>
+<h1 id="从零开始搭博客">从零开始搭博客</h1>
+<p>有个博客的需求是很正常的，大家都想或多或少地与人沟通，获得认同。<br>
+以前我也用过qq空间和新浪博客，但现在还是觉得独立博客才是我的归宿，<br>
+究其原因主要是因为网络暴力+隐私。<br>
+因为网络暴力我不想设置评论，所以独立博客有设置这方面的权限。<br>
+而隐私是因为网上不仅有自己的朋友，还有自己的长辈、晚辈、同事等各种关系的人。<br>
+如果用国内的那些博客网站，手机号是必要信息，<br>
+而手机号又是实名的，所以只有独立博客能满足我了。<br>
+我是一个不懂编程的小白，发现推荐github+gridea方案的人不少且相对简单，于是就采用这个了。</p>
+<h2 id="1-注册和设置github">1 注册和设置github</h2>
+<ol>
+<li>注册github后建立仓库，仓库名=&quot;username&quot;.github.io。
+<ul>
+<li>username就是github的用户名，因为显示博客需要用到github的page服务，也就是用github page做网站，所以仓库名用这种格式后会自动开启该服务。</li>
+<li>如果没有自动开启，可以在页面上方右边的“setting/pages”中开启，注意不是账号里面的“setting”。</li>
+</ul>
+</li>
+<li>page里面选master分支，root目录，主题不用设置，因为主题是用gridea来实现的。</li>
+<li>在账号的“settings/developers settings/Personal access tokens”中新建一个token。
+<ul>
+<li>因为gridea使用token访问github，所以token就相当于一个密码。</li>
+<li>token只需要勾选repo的所有权限即可，且记得提前保存该token，稍后要用。</li>
+</ul>
+</li>
+</ol>
+<h2 id="2-下载和设置gridea">2 下载和设置gridea</h2>
+<ol>
+<li>安装好gridea后打开页面左侧的远程设置相关信息，除cname可不填外，其他都要根据上述步骤的信息来填写。详细参考<a href="https://zhuanlan.zhihu.com/p/71681116">点这里</a></li>
+</ol>
+<h2 id="3-发布博文">3 发布博文</h2>
+<ol>
+<li>上面两部设置好后，就可以用gridea写文章了。写好后可以先点击预览查看文章是否有误。</li>
+<li>文章无误后点击“同步”即可将文章发布到github page，几分钟后博客内容就会刷新成功。</li>
+</ol>
+<hr>
+<h1 id="解决博文同步失败的问题">解决博文同步失败的问题</h1>
+<p><strong>不论使用什么工具来同步博文到github，都必须首先点击gridea的“同步”</strong>，<br>
+因为这个同步不仅是上传文章到github，更关键的是来生成博文必要的配置文件。<br>
+但是，<strong>这套方案最大的问题也在于gridea同步绝大多数时候都不可用</strong>。<br>
+gridea后续有发布新版本，不知道解决了此问题没有，反正我没更新，<br>
+因为我不懂编程，动手能力差，我怕更新后把我现有的可用方案都给整失效了。</p>
+<h2 id="1-使用git同步">1 使用git同步</h2>
+<p>gridea的同步既然是提交到github的仓库，那么本质就是用git在提交吧。<br>
+这样的话自己装好git服务后，手动提交就OK了。<br>
+具体的提交工具有这么几种：</p>
+<ol>
+<li>使用git自带的git bash。这种属于命令行工具，需要熟悉基本命令，remote→add→commit→push等等（我都忘了，还得去翻以前的笔记）。</li>
+<li>直接使用github官方的图形工具“Github Desktop”，直观好用得多。
+<ul>
+<li>登录后先关联仓库，具体步骤忘了……</li>
+<li><strong>push前一定要先fetch</strong>，免得冲突，因为冲突解决起来特别麻烦。</li>
+<li>push前还要选好分支，应该是默认的master。</li>
+<li><strong>网络正常情况下push失败的话，应该是仓库token过期，更新一下即可</strong>。</li>
+</ul>
+</li>
+<li>使用sourcetree或小乌龟图形工具。这些都是老牌工具了，使用方法和github的一样。</li>
+</ol>
+<hr>
+<h1 id="解决github不支持toc的问题">解决github不支持toc的问题</h1>
+<p>MD文档只要在最前面插入toc就可以自动为带“#”的标题生成目录，<br>
+可是github却不支持！而且这么多年都不支持！<br>
+好像是因为markdown语法并不是统一的，各家都有一些差异。<br>
+没办法，只能网上去找大神们的解决方案了。</p>
+<h2 id="1-使用vscode生成目录">1 使用vscode生成目录</h2>
+<p>由于github无法解析toc语法自动生成目录，<br>
+那就直接生成超链接目录，这种基础语法就能解析了。</p>
+<ol>
+<li>安装vscode后打开软件</li>
+<li>Ctrl+Shift+P后输入“language”，选择“configue display language”，更改为中文。（也可以直接点击上方搜索栏输入，但必须先输入“&gt;”，否则无搜索结果）</li>
+<li>点击左侧栏的“扩展”，输入“markdown all in one”，安装该插件。</li>
+<li>打开md文件，光标定位到想插入目录的位置，接着ctrl+shift+p后输入“Markdown All in One: Create Table of Contents”回车，此时便能看到生成后的超链接目录。</li>
+<li>最后将生成后的目录连同正文粘贴到gridea，再发布到github即可。</li>
+</ol>
+<h2 id="2-为知笔记如何生成md文件">2 为知笔记如何生成md文件</h2>
+<p>如果用的是typora、cmd markdown等md编辑器，不会有这个问题。<br>
+因为我用的是为知笔记，所以要记录一下如何解决这问题。<br>
+为知笔记虽然支持md语法，但生成时没有md这个格式可选择，<br>
+刚开始我也有点头疼，尝试在保存时直接改后缀名，等待为知笔记渲染，结果失败……<br>
+后来网友点醒了我，因为md文件本质是纯文本，那些加粗、引用、标题都是阅读器渲染的。<br>
+于是我<strong>直接保存为txt，然后再将后缀名改为md，这样就相当于生成md文件了</strong>。</p>
+<h2 id="3-解决md文章的格式问题">3 解决md文章的格式问题</h2>
+<p>这个问题也只会出现在类似为知笔记这种既支持md也支持富文本的编辑器中。<br>
+如果在写文章的过程中，有意无意地选择了某些富文本格式，<br>
+那么文本里就会留下这些格式符号，虽然不影响md渲染，但可能会影响在vscode中的目录生成。<br>
+因为有些符号在传统编辑器中看不见，但在vscode中就能看见，<br>
+<strong>比如标题中多个几个空格，这样即便生成了目录，也无法实现超链接的跳转功能</strong>，等于没用。<br>
+所以这种情况下，只需要将为知笔记的文章粘贴到纯文本编辑器即可，<br>
+这样不仅能自动清除富文本格式，还能手动删掉那些多余的空格。<br>
+之后再重新粘贴回为知笔记就行了，只是要记得以后<strong>不能在md文件中使用富文本格式</strong>了，<br>
+必须用md语法来实现，md不支持的那就算了，反正要保持语法和格式的一致。</p>
+<p>（记录：22-1-19）</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://yuureig.github.io/post/sui-xiang-2025/" class="post-title gt-a-link">
+                    随想-2025
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">虽是底层小市民，但总想留下来过的痕迹……</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://yuureig.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
