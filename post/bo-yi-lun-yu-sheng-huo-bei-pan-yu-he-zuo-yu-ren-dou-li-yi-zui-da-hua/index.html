@@ -1,0 +1,266 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>博弈论与生活-（背叛与合作+与人斗+利益最大化） | 无胆之辈</title>
+
+<link rel="shortcut icon" href="https://yuureig.github.io/favicon.ico?v=1769845445089">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yuureig.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            无胆之辈
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1769845445089" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    博弈论与生活-（背叛与合作+与人斗+利益最大化）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2026-01-29 ·
+                    </time>
+                    
+                        <a href="https://yuureig.github.io/tag/rZDlUzsZP/" class="post-tags">
+                            # 休闲娱乐
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <figure data-type="image" tabindex="1"><img src="https://yuureig.github.io/post-images/1769676490283.jpg" alt="" loading="lazy"></figure>
+<p><strong>博弈论与生活-6</strong>-（2021-4）</p>
+<blockquote>
+<p>博弈论自20世纪40年代诞生以来，得到西方商界、经济学界、军事领域、社会学界的广泛应用。博弈论的观点告诉我们，面对利益的相互制约，最佳的应对策略不是冲突，而是合作；不是竞争，而是互助。<br>
+本书作者兰·费雪拥有数学、物理、哲学等多个硕士、博士学位，他在跨学科研究中找到了完备的科学问题处理方法，用博弈论中的合作策略为日常生活中的问题提供行动指南。<br>
+博弈论可以帮助不同利益的决策者建立起能够自我规范、自动运作的合作关系，实现共赢。</p>
+</blockquote>
+<hr>
+<p>“博弈论”这3个字听上去高深又专业，但实际上打我们出生开始就面临着各种博弈。</p>
+<ul>
+<li>会哭的孩子有奶吃，但哭太凶甚至假哭可能就没法次次如愿；</li>
+<li>听到爸妈的脚步声，赶紧用风扇吹电视机，结果爸妈这次却摸了摸电风扇；</li>
+<li>想用一个旧玩具换别人手中的新玩具，但旁边的小朋友打算用一堆旧玩具换；</li>
+<li>老板让你一周内上线某功能，但开发反馈要半个月，保需求错过窗口期，保进度则砍功能；</li>
+<li>你嫌老婆不做饭不洗碗，老婆嫌你不拖地不洗衣服不照顾小孩，要么继续吵要么商量着过；</li>
+<li>野外徒步遇到了熊，跑是跑不过，装死就真死了，大吼大叫威胁也不一定管用；</li>
+<li>想去国外旅行，怕治安太差有危险，留在国内旅行，被宰不说还人多……</li>
+</ul>
+<p> <br>
+这样的情况属实太多，其实就是与天斗与地斗与人斗，如何让自己利益最大化。<br>
+有些人只见短期利益，有些人则看得长远；有些人只见局部，有些人则环顾整体。<br>
+有些人甘愿牺牲小我成就大我，有些人则得寸进尺最后搞得两败俱伤。<br>
+我以为专家们将这种情况提炼为“博弈”并深度研究后能想出什么终极策略，<br>
+让大家以后在面对博弈时都能取得想要的结果，实现利益最大化。<br>
+但转念又一想，都利益最大化成赢家了，那输家呢？如果没有输，那还存在赢吗？<br>
+虽然有“正和博弈”“负和博弈”概念，但“零和博弈”的占比应该大得多。<br>
+有人获利的当时必定有人在某一方面失利，就看你以怎样的心态去面对不同的结果。<br>
+我的性格与能力都让我无法在短期博弈方面占优，很多时候只能靠等靠熬。<br>
+我更喜欢下面这些说法，在博弈达人看来这或许是精神胜利法吧。</p>
+<ul>
+<li>结硬寨，打呆仗</li>
+<li>以静制动</li>
+<li>少即是多，慢即是快</li>
+<li>放长线钓大鱼</li>
+<li>以不变应万变</li>
+<li>不求短跑冠军，争当长跑健将</li>
+</ul>
+<p> <br>
+我对此书评价很低，一方面是我没有从中得到什么收获，<br>
+另一方面是<strong>作者真的太会说车轱辘话了，堪称废话文学的代表之一</strong>。<br>
+当然，看不懂看不透这些博弈理论的本质，也是源于我能力的不足，<br>
+但在历史长河中也看过太多博弈，君臣、忠奸、皇权、职位、外交、战争、田产、妻妾……<br>
+在利益争夺的舞台上，人性轮回上演，翻来覆去不曾变过。<br>
+<strong>不管是否喜欢博弈，总之按自己的想法去活，来一趟不容易，做自己过一生</strong>。<br>
+（记录：26-1-10）</p>
+<hr>
+<p>以下是知乎网友关于博弈论的评论，我觉得说得挺好。</p>
+<blockquote>
+<p>现在的邪道博弈论，越来越盛行了。博弈论从学科归类上是数学，不是什么心理学。非合作博弈一个首要前提是理性人假设:计算能力无限强，没有道德责任感，追求利益最大化。单就这一点而言，和我们的现实生活就存在不可逾越的鸿沟。不要忽略了博弈的假设条件和现实的差异，不要把博弈的均衡视为现实中的行为准则，不要把它当成可以指导你生活的心理学导师。</p>
+</blockquote>
+<hr>
+<p><strong><font size=4>精选摘录</font></strong></p>
+<ol>
+<li>
+<p><font color=grey>原文：2006年颇具影响力的《斯特恩报告》就已指出，各国一定要先看到在短期内就能直接获得的经济利益，才会愿意合作解决问题。</font></p>
+<ul>
+<li><font size=2>应该说是因为人如此，国家才如此，因为国家的背后站着的是一个个人。大多数人目光短浅，只会着眼于短期利益，所以往往只能获得蝇头小利。而有些有格局目光远大的人，则愿意放长线钓大鱼，舍小利博大利。再往上走一台阶，或许有人又发现大多数人都在放长线钓大鱼，竞争过了头，最终鱼死网破还是得不到利，索性反其道而行之就暂且鼠目寸光一把，把小利拿到手再说。而还有些人继续往上走，预判了别人的预判……这就是我们生活中处处可见的博弈。在以后各种AI的加持下，各领域的博弈会更加惨烈，利益极端化的局面或许会愈发常见。</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：检察官先到伯纳德的羁押房，表示如果弗兰克认罪，而他不认罪，弗兰克能得到减刑，只判4年刑期，但他会被判最高刑期10年。这样一来，如果他相信弗兰克会认罪，自己最好也认罪，判4年总比10年来得好。检察官又说：“但我可以开个条件，如果你认罪，而弗兰克不认罪，你就可以因为这个不利于共犯的证词无罪释放！”<br>这样看来，不论弗兰克做何决定，似乎认罪都是伯纳德最好的选择，这逻辑看来可真是完美无比。但问题就在于，检察官后来也去拜访了弗兰克，提出同样的建议，而弗兰克也得到同样的结论。最后两人都认罪，也都被判4年徒刑；而相较之下，如果两人死不认罪，其实都只会被判两年。</font></p>
+<ul>
+<li><font size=2>对于“囚徒困境”这种博弈情况，如果让我选，我大概率就会选择认罪，接受确定性的中等惩罚。因为如果选择不认罪，那么根据同伙的不认罪和认罪选择，我虽然可能被轻判，但更大概率会被重判，因为对方也想尽可能被判得轻一点。所以如果我想赌轻判，那么重判的概率也如影随形。但只要我放弃赌徒心态，那么在这个案例中，我就100%确定性地只会受中等惩罚，100%地躲过重判，这样我就能睡得着，不会寝食难安了。这个就是找安全边际的体现吧，我先看损失大不大，如果不大我才下注。下限靠自己，上限靠上帝。先尽量保证少亏不亏，再说赚多少。先求不败再求胜。</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：每次听到校园霸凌，或是某个遥远国度的军权专政，或是无辜平民在内战中丧生的时候，我们总会希望能有个善意的权威人士处理一切。我们会想，当然该有人站出来，作为权威的独立仲裁者，阻止一切争端，像是教师、权威人士，甚至是联合国这种国际组织。但光从每天报纸上报道的事实来看，就知道权威人士需要权力；而一旦有了权力，就几乎无可避免地会谋求私利。不论权威人士如何以善意为诉求，善意永远不是他们最终考量的重点。</font></p>
+<ul>
+<li><font size=2>作者的想法和我一样，寻找没有利益瓜葛的第三方来谋求纳什均衡，只可能达成短期或局部的效果。因为“没有利益瓜葛”本身就站不住脚，怎么能确定第三方就没有涉入利益谈判呢？屠龙少年终成恶龙，有了权力就谋求更大的权力，有了财富也谋求更多的财富。绝大多数慈善家不是真慈善，而是因为有更大的利益诉求，通过慈善的表演可以获得更大的利益，名利双收，何乐而不为？钱对于富豪来说确实只是个数字，但不代表他就不想赚钱了。事实上因为物质享受他都体验过了，没有太多东西能够刺激他了，向内看一圈向外看一圈，发现能刺激自己继续享受人生的好像还是金钱游戏，那就继续做下去。即便金钱已经变成了他眼中的游戏，但不改利益的本质。</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：“我切你选”其实就是“有争议部分平分法”的简化版，道理在于消除不具争议的部分，接下来直接平分即可。</font></p>
+<ul>
+<li><font size=2>我怎么觉得这个结论站不住脚呢？或许是我太笨，但“有争议部分平分法”我确实觉得是个暴论。博弈本身就是围绕利益预期不一致而展开的争议。如果利益预期一致，别说平分，其中一方拿大头都可以，另一方认同即可。但真实情况几乎都不是这样，任何一方都想尽可能拿大头，这本身就源自于人性的贪婪，即便个体有特例，人类这个集体也逃不开人性的制约。所以既然有争议了，怎么可能轻轻松松就达成平分的协议？不上演一下“拳头即真理”，怎么能体现人性呢？如果一方败了，那就不是平分。如果我的拳头确实硬，但对方手更长，我打了一记重拳但也中了5记轻拳，最终发现彼此势均力敌，那好吧，在能拿到更多利益前先暂时接受平分的方案。这才是更普遍的解决路径吧……</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：这个政党解散的原因之一，就是我们太想实现真正的民主；所有的政策决议都要经过讨论、决议，再经全体党员同意，花的时间长得没道理，行政负担重到没人性，而且最后常常政策不如预期，甚至自相矛盾。</font></p>
+<ul>
+<li><font size=2>这个深有感触。这个我好像之前也写过。民主与专制，不是非黑即白非好即坏。民主就像作者说的，决策链太长，效率低下，而且最终结果还不一定好。最多就是一定程度上平衡或表面上平衡了各方利益，让大家心里感觉相对公平，彼此的意见都得到了考量，心理上容易接受。而专制则要碰运气，万一是刘秀、李世民、苻坚这些明君或仁君，那么天下就太平盛世，但这毕竟是小概率，大概率碰到的都是昏君庸君暴君，民不聊生。不过，现代社会的专制也并不全是古代那种赤裸裸的家天下封建专制，降低民主带来相对高效的决策和执行，也有一定好处。</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：在政治学上，搭便车问题被称为“马里布冲浪者”（Malibu Surfer）问题，这是因为在美国加州的马里布海滩，有一群热爱冲浪的人，成天冲浪，靠社会福利过活，搭着社会的“便车”。有人会说，这些马里布冲浪者其实没消耗什么资源，相比之下，有钱人为了维持富裕的生活，对生态的影响更大，耗费资源更多。但反过来讲，虽然几个人在马里布乘风破浪是没什么大不了的，但如果几千个年轻人都模仿，社会成本很快就会飙升。社会虽然养得起几个搭便车的人，但多了还是不成。</font></p>
+<ul>
+<li><font size=2>作者总结了“搭便车”这种博弈困境，并对“搭便车”的那些人表示看不起，认为他们占了别人的便宜。我个人觉得这种占便宜的现象中有不少算不上标准的博弈。因为标准博弈中的参与者是都想尽可能低成本获利，但某些占便宜的情形可以算是零成本博弈了。比如作者提到的蹭别人家的暖气、蹭社会福利天天冲浪，还有我能想到的蹭超市空调、蹭别人家的电视、蹭课、蹭免费体检…这些占便宜者没有成本，放弃博弈最多不获利而已，没有损失，所以你不让他们搭便车对你而言也没有什么获利。相反蹭暖气可能会换来和谐邻里关系，天天冲浪的人可能会吸引更多人前来而提升地区旅游资源，蹭空调可能会增加客流量带动销售额，蹭课可能会提升老师知名度…如果他们真的占用了太多公共资源，影响了主要参与者的利益，这种博弈关系大概率也会动态调整。不可能永远是同一波人逮着机会套利。比如蹭wifi、蹭救济食物、蹭助学金就明显侵占资源了，所以这里面的博弈程度应该就比较高。</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：搭便车的行为不一定都是那么无关紧要，有时候也有可能造成严重后果。全球变暖就是一个例子：何不继续追求经济利益，让其他国家去承担减少碳排放的责任呢？如果多数国家都采用同样的逻辑，我们就都沉沦了</font></p>
+<ul>
+<li><font size=2>作者好像前面有说过“搭便车”是“公地悲剧”博弈的一个变种？看到这里我觉得是不是分类不够严谨？这段话举到的例子明显应分类进“公地悲剧”吧。参与者都在想：“反正就我一个人偷偷排放，问题应该不大。”结果大家都这么想，最后全球变暖，搞得大家都活不下去。虽然才看了1/3，且我肯定是个不聪明的人，但总觉得作者提到的博弈行为与他给出的解决方案都很泛泛而谈。没有很明显很直观的分类界定，也没有行之有效的解决方案，看了之后对生活中的同类事情似乎也帮助不大。虽然这些行为被社会学心理学等专家总结提炼了，但在很多博弈中人们都会不自觉地学会如何处理，即便叫不出书中那些高大上的词汇。比如后面提到的懦夫博弈，如果你选择鹰派策略，最终可能赢大的，也可能两败俱伤，因为对方也可以鹰派，那就可能玉石俱焚；如果你选择鸽派，看似输了，但暂时消除了更大的危机，和后续反复纠缠冲突带来的坏心情，所以也不能说哪个就比哪个更高明吧。而且你也不能一直鹰派或鸽派，你若不动那就给了对方更多时间来思考如何进一步压制你。所以这些博弈行为不需要专家说得那么高深晦涩，是个人慢慢都会领悟一些博弈手段，毕竟与人斗是与生俱来就面临的处境。有些人虽然没有受过系统教育，但在社会上摸爬滚打的经历让他们更是擅长与人博弈。你聪明，对方更聪明，总是人外有人山外有山，你不可能次次都是博弈赢家。总之我觉得这本书可以当做入门科普，价值不大。</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：“猎鹿问题”的名称来自法国哲学家卢梭讲过的一则小故事：有一群村民去猎鹿，每个人都知道，如果想成功猎到鹿，每个人都必须坚守岗位。但假如碰巧有只野兔从某人眼前跳过，他一定会毫不犹豫地追上去；只要抓到了兔子，即使同伴猎不到鹿，他也不会太在意。</font></p>
+<ul>
+<li><font size=2>个人觉得这段话进一步证明了我之前的观点：作者或者说该领域的专家对博弈行为的分类很模糊。虽然作者将文中的博弈行为称为“猎鹿问题”，但在我看来这仍然属于公地悲剧博弈的范畴，因为博弈就是围绕参与者的利益进行较量，无非参与者的多寡而已。一个猎鹿人觉得擅离职守没问题，因为还有其他人在干活，结果大家都这么想，导致兔子可能没抓到几只，更大的猎物鹿则铁定没戏，最后还是大家都饥肠辘辘。这不就是公地悲剧吗？</font></li>
+</ul>
+</li>
+<li>
+<p><font color=grey>原文：两家公司有一个周末可以决定该出什么拳，但两边采取的策略截然不同。苏富比表示他们“没想太多”，于是出了布，可以看出他们认为佳士得会出石头。但最后是由佳士得胜出，因为佳士得艺术品拍卖部门主管麦克莱恩的11岁双胞胎女儿芙罗拉和艾莉丝提出了她们的专业建议。艾莉丝解释说：“每个人都会以为别人要出石头。”所以要赢就要出剪刀。</font></p>
+<ul>
+<li><font size=2>我估计围绕石头剪刀布的博弈书籍和策略有一大堆。我脑子笨，没做过研究，但我也喜欢第一次出剪刀，因为三种手势中，石头是相对最省力最自然最容易做出的手势，布次之，剪刀最不自然（需要有意识地控制肌肉神经做出这个手势）。那我就认为对方也如此考虑，但只想了一步，所以他出布，我出剪刀就赢了。但对方想了两步、三步、四步……这个博弈就会烧掉我的大脑，我就只能根据当时情况随机出了。</font></li>
+</ul>
+</li>
+</ol>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://yuureig.github.io/post/shi-shi-li-zu-shi-shi-shu-ju-kai-lu-ke-guan-fen-xi-md/" class="post-title gt-a-link">
+                    事实-（立足事实+数据开路+客观分析）.md
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">虽是底层小市民，但总想留下来过的痕迹……</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://yuureig.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
